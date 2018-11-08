@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    tools:context=".LoginActivity"
+    >
+
+    <EditText
+        android:id="@+id/loginId"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="이메일"
+        android:paddingLeft="30dp"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/loginPw"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="비밀번호"
+        android:paddingLeft="30dp"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:inputType="textPassword"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/goMainActivity"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="로그인"
+        android:textSize="25dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff000"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/goRegistActivity"
+            android:text="회원가입"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="ㅣ"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
+
+        <Button
+            android:text="아이디찾기"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goFindIdActivity"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:text="비밀번호 찾기"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2c3e50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goFindPwActivity"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>

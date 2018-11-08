@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/menu_main">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="100"
+        android:name="로그아웃"
+        android:title="로그아웃" />
+
+    <item
+        android:id="@+id/menu_alarm_on"
+        android:orderInCategory="100"
+        android:name="알람켜기"
+        android:title="알람켜기"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_alarm_off"
+        android:orderInCategory="100"
+        android:name="알람끄기"
+        android:title="알람끄기"
+        android:visible="true"/>
+
+</menu>

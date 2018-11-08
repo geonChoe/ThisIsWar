@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "258686141729",
+    "firebase_url": "https://projectwar-357cd.firebaseio.com",
+    "project_id": "projectwar-357cd",
+    "storage_bucket": "projectwar-357cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258686141729:android:a581d57710411373",
+        "android_client_info": {
+          "package_name": "su.gun.thisiswar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258686141729-kjodqo2vkb9vnmp4f84bqgea94f4sj4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "su.gun.thisiswar",
+            "certificate_hash": "97489A4F8924DB046ECC8D882E1F997470927641"
+          }
+        },
+        {
+          "client_id": "258686141729-j72igr6ioab8mtgb3j8gna0fu5eqks63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4wW1WTtK_hQDhHop8G0MHlTKG1xSnrZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258686141729-j72igr6ioab8mtgb3j8gna0fu5eqks63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
